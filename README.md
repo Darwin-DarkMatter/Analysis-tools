@@ -10,6 +10,6 @@ Double_t Gauss(double x, double mu, double sigma) : *Returns a Gaussian function
 
 void SmearEnergySpectra(TH1D* h) : *Smears a 1D-histogram with the Gauss function.*
 
-double GetRateinRoi(TH1D* h) : *Calculates the rate in ROI : [2435 - 2481] =*
+double GetRateinRoi(TH1D* h) : *Calculates the rate in ROI : [2435 - 2481]*
 
 void Generate0nbb( TH1D* h, double expected_events) : *Generates a 1-D histogram of a gaussian signal with the total integral equal to expected_events*
