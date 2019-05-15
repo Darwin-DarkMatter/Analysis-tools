@@ -1,7 +1,8 @@
 # Analysis-tools
 Tools for data analysis of MC data
-List of functions in analysis_tools.h
 
+List of functions in analysis_tools.h
+--
 TCut define_cuts_for6() : *Returns a superellipsoid cut that contains 6 tons of LXe*
 
 double sigma(double x) : *Sigma used in the Gaussian, same as used by Shayne in https://www.physik.uzh.ch/groups/groupbaudis/aspera09/wiki/doku.php?id=shayne:ersolarneutrinos#epilogueneutrino_capture_april_2019 Not the latest one*
