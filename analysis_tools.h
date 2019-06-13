@@ -80,3 +80,8 @@ void Generate0nbb( TH1D *h, double expected_events){
 
 	}
 }
+
+void NormToRate(TH1D *h, double weight_factor, double material_mass, double activity, double fid_mass, double generated_events){
+	h -> Scale(weight_factor * material_mass * TMath::Power(10,5)*activity/generated_events/fid_mass/3.17098, "width");
+	return;
+}
